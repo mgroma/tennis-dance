@@ -1,4 +1,5 @@
 # tennis-dance
+ReactJs application to display current tennis scores
 
 ## features
 list current tournaments
