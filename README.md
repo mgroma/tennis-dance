@@ -6,7 +6,7 @@ ReactJs application to display current tennis scores
 - display live scores
 - display scores for completed matches
 - display upcoming match schedule for a given tournament
-- display player profile
+- display player and doubles profiles
 
 ##Models
 - tournament
