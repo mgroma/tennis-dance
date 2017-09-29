@@ -1,6 +1,4 @@
 
-Docker: Ubuntu 16.04 with Node 6.10.2, Selenium Standalone, Chrome Headless
-
 FROM ubuntu:16.04
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
@@ -62,12 +60,3 @@ ENV DBUS_SESSION_BUS_ADDRESS=/dev/null
 ENTRYPOINT java -jar /opt/selenium/selenium-server-standalone.jar
 
 EXPOSE 4444
-@kenfehling
-kenfehling 
-commented 5 months ago
-https://hub.docker.com/r/kenfehling/node-selenium-chrome
-Comment on gist
- 
-Leave a comment
-Comment
- Desktop version
